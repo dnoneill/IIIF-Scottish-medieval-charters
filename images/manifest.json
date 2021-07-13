@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 3264,
+    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/",
+    "label" : {
+      "none" : [ "no.4_1362" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 102,
+              "height" : 77
+            }, {
+              "width" : 204,
+              "height" : 153
+            }, {
+              "width" : 408,
+              "height" : 306
+            }, {
+              "width" : 816,
+              "height" : 612
+            }, {
+              "width" : 1632,
+              "height" : 1224
+            }, {
+              "width" : 3264,
+              "height" : 2448
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3264,
+            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2448
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3264,
+          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2448
+        },
+        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/"
+      } ]
+    } ],
+    "height" : 2448
+  }, {
+    "width" : 3264,
     "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/",
     "label" : {
       "none" : [ "no.74_1381" ]
