@@ -1,0 +1,13 @@
+{
+  "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in jo-tucker/IIIF-Scottish-medieval-charters project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/manifests/manifest2.json",
+    "label" : "Edinburgh NLS Adv. MS 15.1.18 examples"
+  } ]
+}
