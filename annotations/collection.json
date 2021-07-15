@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/annotations/annotations1.json" ],
+  "otherContent" : [ "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/annotations/annotations1.json", "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/annotations/annotations2.json" ],
   "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/annotations/collection.json",
   "label" : "All annotations loaded in jo-tucker/IIIF-Scottish-medieval-charters project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
