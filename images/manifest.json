@@ -1,693 +1,1083 @@
+---
+layout: none
+---
 {
-  "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in jo-tucker/IIIF-Scottish-medieval-charters project" ]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "All images loaded in jo-tucker/IIIF-Scottish-medieval-charters project"
+    ]
   },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/canvas/",
-    "label" : {
-      "none" : [ "no.90_1443" ]
+  "items": [
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.90_1443"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-90-1443-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.90_1443/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/canvas/",
-    "label" : {
-      "none" : [ "no.83_1400" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.83_1400"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-83-1400-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.83_1400/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/",
-    "label" : {
-      "none" : [ "no.79_1358" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.79_1358"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-79-1358-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/canvas/",
-    "label" : {
-      "none" : [ "no.5_1339" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.5_1339"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-5-1339-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5_1339/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/",
-    "label" : {
-      "none" : [ "no.4_1362" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.4_1362"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-4-1362-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4_1362/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/",
-    "label" : {
-      "none" : [ "no.74_1381" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.74_1381"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-74-1381-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.74_1381/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/canvas/",
-    "label" : {
-      "none" : [ "no.56_1402" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.56_1402"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-56-1402-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.56_1402/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/canvas/",
-    "label" : {
-      "none" : [ "no.52_1286" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.52_1286"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-52-1286-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.52_1286/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/canvas/",
-    "label" : {
-      "none" : [ "no.48_1292" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.48_1292"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-48-1292-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.48_1292/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/canvas/",
-    "label" : {
-      "none" : [ "no.15_1416" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.15_1416"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-15-1416-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.15_1416/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/canvas/",
-    "label" : {
-      "none" : [ "no.5-1339" ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.5-1339"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-5-1339-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/canvas/"
+        }
+      ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.5-1339/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  }, {
-    "width" : 3264,
-    "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/canvas/",
-    "label" : {
-      "none" : [ "no.4-1362" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 102,
-              "height" : 77
-            }, {
-              "width" : 204,
-              "height" : 153
-            }, {
-              "width" : 408,
-              "height" : 306
-            }, {
-              "width" : 816,
-              "height" : 612
-            }, {
-              "width" : 1632,
-              "height" : 1224
-            }, {
-              "width" : 3264,
-              "height" : 2448
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3264,
-            "@id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2448
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3264,
-          "id" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2448
-        },
-        "target" : "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/canvas/"
-      } ]
-    } ],
-    "height" : 2448
-  } ]
+    {
+      "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/canvas/",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "no.4-1362"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "items": [
+        {
+          "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/AnnoPage/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/annotation/",
+              "type": "Annotation",
+              "motivation": "Painting",
+              "body": {
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 77
+                      },
+                      {
+                        "width": 204,
+                        "height": 153
+                      },
+                      {
+                        "width": 408,
+                        "height": 306
+                      },
+                      {
+                        "width": 816,
+                        "height": 612
+                      },
+                      {
+                        "width": 1632,
+                        "height": 1224
+                      },
+                      {
+                        "width": 3264,
+                        "height": 2448
+                      }
+                    ],
+                    "profile": "http://iiif.io/api/image/2/level0.json",
+                    "width": 3264,
+                    "@id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 2448
+                  }
+                ],
+                "format": "image/jpeg",
+                "width": 3264,
+                "id": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2448
+              },
+              "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/canvas/"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/no-4-1362-list.json",
+          "type": "AnnotationPage",
+          "target": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.4-1362/canvas/"
+        }
+      ]
+    }
+  ]
 }
