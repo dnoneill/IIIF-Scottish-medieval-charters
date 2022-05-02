@@ -1,0 +1,35 @@
+---
+canvas: "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-05-02T18:21:23.864Z",
+            "modified": "2022-05-02T18:21:24.274Z"
+        }
+    ],
+    "target": {
+        "source": "https://jo-tucker.github.io/IIIF-Scottish-medieval-charters/images/no.79_1358/canvas/",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=154.45175170898438,579.0187377929688,611.1741027832031,220.242919921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/IIIF-Scottish-medieval-charters/images/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "77603075-11bb-481c-a805-ed4853540e9d.json",
+    "motivation": "commenting"
+}
