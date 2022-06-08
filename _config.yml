@@ -3,4 +3,6 @@ collections:
   annotations:
     output: true
     permalink: /annotations/:name
+settings:
+  vieiwer: mirador
 theme: jekyll-theme-tactile
